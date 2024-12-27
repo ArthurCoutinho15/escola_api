@@ -14,4 +14,4 @@ def numero_celular_invalido(numero_celular):
     # 86 00000-0000
     modelo = '[0-9]{2} [0-9]{5}-[0-9]{4}'
     resposta = re.findall(modelo, numero_celular)
-    return not resposta
+    return not resposta 
