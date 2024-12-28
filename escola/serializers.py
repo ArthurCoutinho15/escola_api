@@ -1,3 +1,4 @@
+from typing import OrderedDict
 from rest_framework import serializers
 from escola.models import Estudante, Curso, Matricula
 from escola.validators import cpf_invalido, nome_invalido, numero_celular_invalido
