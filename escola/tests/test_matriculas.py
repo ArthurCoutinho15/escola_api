@@ -62,3 +62,5 @@ class MatriculasTestCase(APITestCase):
         
         response = self.client.delete(f'{self.url}1/')
         self.assertEqual(response.status_code, status.HTTP_405_METHOD_NOT_ALLOWED)
+        
+    
